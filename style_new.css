@@ -2450,6 +2450,7 @@ letter-spacing: 0.16em; }
 	/*  Widgets  */
 	.widget-stories { padding: 15px 0 20px; }
 	.widget-stories { display: none; }
+	.widget-team { display: none; }
 
 	.widget-news .widget-head { margin-bottom: 20px; }
 
@@ -2463,6 +2464,14 @@ letter-spacing: 0.16em; }
 	.story ~ .story { margin-top: 25px; }
 
 	.sidebar-alt .widget ~ .widget { padding-top: 20px; margin-top: 20px; }
+
+	/* Callout */
+
+	.section_callout.home_callout {
+	    margin-top: auto;
+	    margin-bottom: auto;
+	    background-color: rgba(245,245,245,0.7);
+	}
 
 	/*  Footer  */
 	.globalFooter { padding-top: 50px; padding-bottom: 20px; }
